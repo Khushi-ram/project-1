@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Personal Blog Website</title>
+
+    <!--Add CSS Style-->
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    <div id="container" class="container">
+        <!--Navigation bar-->
+        <nav id="nav" class="nav">
+            <div class="nav-menu flex-row">
+                <div class="nav-brand">
+                   <CENTER><h3>------INDIAN TOURISM------</h3></CENTER> 
+                   <hr>
+                </div>
+                <div>
+                  <ul class="nav-items">
+                    <li class="nav-link">
+                      <a href="#nav">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#post">Posts</a>
+                      </li>
+                    <li class="nav-link">
+                      <a href="#about">About me</a>
+                    </li>
+                    <li class="nav-link">
+                      <a href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                  <hr>
+                 </div>
+            </div>
+        </nav>
+        <header class="welcome">
+            <figure>
+                <center><img id="welcome-img" src="/welcome.jpeg" alt="Welcome"></center>
+
+            </figure>
+        </header>
+    
+       
+        <!--Posts section-->
+        <section id="post" class="post">
+            <h1><b>Recent Posts</b></h1>
+            <div class="flex-container">
+                <div class="post-card">
+                    
+                    <h3><center>TIRUMALA</center></h3>
+                    <center><img id="card-img" src="/tirumala.jpeg" alt="Project post"></center>
+                    <p id="hh">Tirumala, set atop the lush Tirumala hills of the Eastern Ghats, is not only a major spiritual hub due to the renowned Venkateswara Swamy Temple dedicated to Lord Venkateswara but also a place of breathtaking natural beauty. As one of the world's richest and most visited religious sites, it holds immense historical significance with its Dravidian architectural marvels, intricate carvings, and a legacy that has been patronized by various rulers over centuries. Managed by the Tirumala Tirupati Devasthanams, the temple and its surroundings blend spiritual, historical, and natural allure seamlessly.</p>
+                    <span class="date-post"><i class="fa fa-calendar"></i>&nbsp;&nbsp; Nov, 15 2020</span><br><br>
+                    <div class="readbtn">
+                        <a href="./blog.html" class="btntxt">READMORE</a>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <h3><center>Kanyakumari</center></h3>
+                    <center><img id="card-img" src="/kanya1.jpg" alt="Development post"></center>
+                    <p id="hh"> Kanyakumari is the southern tip of India.This place has been a great center for art, culture, civilization, and pilgrimage for years. It was also a famous center for commerce and trade.
+                        This gigantic statue was built by the Tamil government in honour of the Saint Thiruvalluvar which is now one of the key attraction in Kanyakumari.</p>
+                    </p>
+                    <span class="date-post"><i class="fa fa-calendar"></i>&nbsp;&nbsp; Nov, 10 2020</span><br><br>
+                    <div class="readbtn">
+                        <a href="./blog1.html" class="btntxt">READMORE</a>
+                    </div>
+
+                </div>
+                <div class="post-card">
+                    <h3><center>Taj Mahal</center></h3>
+                    <center><img id="card-img" src="tajmahalnew.jpg" alt="Agile post"></center>
+                    <p id="hh">Taj Mahal, one of the new 7 wonders of the World.Taj Mahal is situated on the banks of river Yamuna in the North Indian city of Agra.
+                       It was commissioned by Shah Jahan, the Mughal emperor for housing the tomb of his beloved wife,
+                        Mumtaz Mahal. Hence, it’s also considered as the ultimate “symbol of love”
+                        .</p>
+                    <span class="date-post"><i class="fa fa-calendar"></i>&nbsp;&nbsp; Nov, 01 2020</span><br><br>
+                    <div class="readbtn">
+                        <a href="./blog2.html" class="btntxt">READMORE</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--About me section-->
+        <section id="about" class="about">
+            <h1>About me</h1>
+            <div class="about-content-grid">
+                <div class="about-box"><br>
+                    <center><img id="card-img" src="/khushiramit.jpeg" alt="Agile post" width="200" height="200"></center>
+                  <p id="hh">Hello, This is khushiram from chennai,India. I'm thrilled to have you join me on this journey through the world's most captivating destinations.
+
+                    I've always had a deep passion for travel and a curiosity to explore the diverse cultures and landscapes that our planet has to offer. Over the years, I've had the privilege of visiting numerous countries, each with its unique charm and beauty.
+                    
+                    Through this blog, I aim to share my adventures, travel tips, and insights gained from my explorations. Whether you're a seasoned traveler or planning your first big adventure, I hope my experiences and recommendations will inspire and guide you on your own voyages.
+                    
+
+                  </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact me and subscribe by form section-->
+        <section id="contact" class="contact">
+            <h1>Contact me and Subscribe</h1>
+            <form class="form-contact">
+                <label class="text-form" for="fullname" style="font-size: 2rem;">* Name: </label><br>
+                <a class="text-form"><input type="text" id="name" name="fullname"  placeholder="Enter Your Name " required></a><br><br>
+                <label class="text-form" style="font-size: 2rem;"><label class="text-form" for="email">* Email: </label><br>
+                <a class="text-form"><input type="email" id="email" name="email"  placeholder="Email address please" required></a><br><br>
+                <label class="text-form" for="message">Message: </label><br>
+                <a class="text-form"><textarea id="message" name="message" placeholder="Enter your mesage here"></textarea><br></a>
+                <a style="font-size: 2rem;" class="text-form"><input class="btn-button btn-submit" type="submit" value="Subscribe"></a>
+            </form>
+        </section>
+        <!--Footer section-->
+        <footer class="footer">
+            <div id="footer-grid">
+                <div id="follow" class="footer-box">
+                    <h3>Follow me</h3>
+                    <a href="https://www.facebook.com/lovely.khushiramchoudary" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/?lang=en-in" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/khushiram_maddina/" class="fa fa-instagram"></a>
+                </div>
+                <div id="arrow-up">
+                    <a href="#nav" class="fa fa-arrow-circle-up"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
